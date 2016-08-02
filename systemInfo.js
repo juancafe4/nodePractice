@@ -7,8 +7,9 @@ class userInfo {
     console.log('Release:', os.release());
     console.log('User Name:', os.userInfo().username);
     console.log('Home Directory:', os.homedir())
-    console.log('Host Name: ', os.hostname())
+    console.log('Host Name: ', os.hostname(), '\n\n')
   }
+
 }
 
 module.exports = new userInfo()
